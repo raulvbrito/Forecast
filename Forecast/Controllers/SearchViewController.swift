@@ -38,7 +38,7 @@ class SearchViewController: BaseViewController, Storyboarded {
 	@IBOutlet weak var tagListView: TagListView! {
 		didSet {
 			tagListView.textFont = UIFont.systemFont(ofSize: 14, weight: .semibold)
-			tagListView.addTags(["1 Day", "5 Days", "10 Days", "15 Days", "1 Hour", "12 Hours", "24 Hours", "72 Hours", "120 Hours"])
+			tagListView.addTags(["1 Day", "5 Days", "10 Days", "15 Days"]) //"1 Hour", "12 Hours", "24 Hours", "72 Hours", "120 Hours"])
 			tagListView.tagViews[0].isSelected = true
 		}
 	}
@@ -60,8 +60,6 @@ class SearchViewController: BaseViewController, Storyboarded {
 		UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseOut, animations: {
 			self.view.layoutIfNeeded()
 		}) { (Bool) in
-			UIImpactFeedbackGenerator(style: .medium).impactOccurred()
-			
 			self.searchTextField.becomeFirstResponder()
 		}
 	}

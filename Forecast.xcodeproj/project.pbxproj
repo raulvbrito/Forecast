@@ -35,6 +35,12 @@
 		41767BC322509C2100E97383 /* DailyForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41767BC222509C2100E97383 /* DailyForecast.swift */; };
 		41767BC422509FFE00E97383 /* DailyForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41767BC222509C2100E97383 /* DailyForecast.swift */; };
 		41767BC522509FFF00E97383 /* DailyForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41767BC222509C2100E97383 /* DailyForecast.swift */; };
+		41767BC72250C41500E97383 /* CurrentConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41767BC62250C41500E97383 /* CurrentConditions.swift */; };
+		41767BC82250C41500E97383 /* CurrentConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41767BC62250C41500E97383 /* CurrentConditions.swift */; };
+		41767BC92250C41500E97383 /* CurrentConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41767BC62250C41500E97383 /* CurrentConditions.swift */; };
+		41767BCB2250DBB500E97383 /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41767BCA2250DBB500E97383 /* ForecastTableViewCell.swift */; };
+		41767BCC2250DBB500E97383 /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41767BCA2250DBB500E97383 /* ForecastTableViewCell.swift */; };
+		41767BCD2250DBB500E97383 /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41767BCA2250DBB500E97383 /* ForecastTableViewCell.swift */; };
 		41ED7512224F1E7400FBC13B /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED7511224F1E7400FBC13B /* LocationViewController.swift */; };
 		41ED7513224F1E7400FBC13B /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED7511224F1E7400FBC13B /* LocationViewController.swift */; };
 		41ED7514224F1E7400FBC13B /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED7511224F1E7400FBC13B /* LocationViewController.swift */; };
@@ -102,6 +108,8 @@
 		416EEE62225093CF009A7D42 /* ForecastServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastServiceTests.swift; sourceTree = "<group>"; };
 		417222272250603D0020C362 /* ForecastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastService.swift; sourceTree = "<group>"; };
 		41767BC222509C2100E97383 /* DailyForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecast.swift; sourceTree = "<group>"; };
+		41767BC62250C41500E97383 /* CurrentConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentConditions.swift; sourceTree = "<group>"; };
+		41767BCA2250DBB500E97383 /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
 		41ED7511224F1E7400FBC13B /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		41ED7515224F1F6100FBC13B /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		41ED7519224F1FB300FBC13B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -232,6 +240,7 @@
 		416ABA21224F1C22003FE26A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				41767BC62250C41500E97383 /* CurrentConditions.swift */,
 				41767BC222509C2100E97383 /* DailyForecast.swift */,
 				416EEE52225062A6009A7D42 /* Forecast.swift */,
 				41ED7529224F2ACB00FBC13B /* Location.swift */,
@@ -287,6 +296,7 @@
 		416ABA27224F1C5E003FE26A /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				41767BCA2250DBB500E97383 /* ForecastTableViewCell.swift */,
 				41ED7535224FED8400FBC13B /* LocationTableViewCell.swift */,
 			);
 			path = Cells;
@@ -549,9 +559,11 @@
 			files = (
 				41ED7526224F289900FBC13B /* LocationService.swift in Sources */,
 				41ED7532224FE02900FBC13B /* SearchViewController.swift in Sources */,
+				41767BC72250C41500E97383 /* CurrentConditions.swift in Sources */,
 				416EEE5F225087A6009A7D42 /* ForecastViewController.swift in Sources */,
 				41ED751A224F1FB300FBC13B /* Coordinator.swift in Sources */,
 				416EEE5B22508722009A7D42 /* ForecastViewModel.swift in Sources */,
+				41767BCB2250DBB500E97383 /* ForecastTableViewCell.swift in Sources */,
 				41ED752A224F2ACB00FBC13B /* Location.swift in Sources */,
 				417222282250603D0020C362 /* ForecastService.swift in Sources */,
 				416AB9F2224F1B38003FE26A /* AppDelegate.swift in Sources */,
@@ -581,10 +593,12 @@
 				41ED752B224F2ACB00FBC13B /* Location.swift in Sources */,
 				41ED7533224FE02900FBC13B /* SearchViewController.swift in Sources */,
 				416ABA07224F1B3A003FE26A /* LocationServiceTests.swift in Sources */,
+				41767BC82250C41500E97383 /* CurrentConditions.swift in Sources */,
 				416EEE5C22508722009A7D42 /* ForecastViewModel.swift in Sources */,
 				41ED7537224FED8400FBC13B /* LocationTableViewCell.swift in Sources */,
 				417222292250603D0020C362 /* ForecastService.swift in Sources */,
 				41ED751F224F208E00FBC13B /* Storyboarded.swift in Sources */,
+				41767BCC2250DBB500E97383 /* ForecastTableViewCell.swift in Sources */,
 				416EEE60225087A6009A7D42 /* ForecastViewController.swift in Sources */,
 				41ED7517224F1F6100FBC13B /* MainCoordinator.swift in Sources */,
 				41ED7513224F1E7400FBC13B /* LocationViewController.swift in Sources */,
@@ -597,9 +611,11 @@
 			files = (
 				41ED7528224F289900FBC13B /* LocationService.swift in Sources */,
 				41ED751C224F1FB300FBC13B /* Coordinator.swift in Sources */,
+				41767BC92250C41500E97383 /* CurrentConditions.swift in Sources */,
 				416EEE61225087A6009A7D42 /* ForecastViewController.swift in Sources */,
 				4172221E2250354C0020C362 /* BaseViewController.swift in Sources */,
 				416EEE5D22508722009A7D42 /* ForecastViewModel.swift in Sources */,
+				41767BCD2250DBB500E97383 /* ForecastTableViewCell.swift in Sources */,
 				41ED752C224F2ACB00FBC13B /* Location.swift in Sources */,
 				4172222A2250603D0020C362 /* ForecastService.swift in Sources */,
 				41ED7534224FE02900FBC13B /* SearchViewController.swift in Sources */,

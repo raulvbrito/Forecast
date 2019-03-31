@@ -27,5 +27,3 @@ struct Location: Mappable {
         longitude <- map.resolve(keyPath: "GeoPosition.Latitude")
 	}
 }
-
-//[{"Version":1,"Key":"178087","Type":"City","Rank":10,"LocalizedName":"Berli n","EnglishName":"Berlin","PrimaryPostalCode":"10178","Region":{"ID":"EUR","LocalizedName":"Europe","EnglishName":"Europe"},"Country":{"ID":"DE","LocalizedName":"Germany","EnglishName":"Germany"},"AdministrativeArea":{"ID":"BE","LocalizedName":"Berlin","EnglishName":"Berlin","Level":1,"LocalizedType":"State","EnglishType":"State","CountryID":"DE"},"TimeZone":{"Code":"CET","Name":"Europe/Berlin","GmtOffset":1.0,"IsDaylightSaving":false,"NextOffsetChange":"2019-03-31T01:00:00Z"},"GeoPosition":{"Latitude":52.518,"Longitude":13.406,"Elevation":{"Metric":{"Value":35.0,"Unit":"m","UnitType":5},"Imperial":{"Value":114.0,"Unit":"ft","UnitType":0}}},"IsAlias":false,"SupplementalAdminAreas":[{"Level":2,"LocalizedName":"Berlin","EnglishName":"Berlin"}],"DataSets":["Alerts","MinuteCast"]}]

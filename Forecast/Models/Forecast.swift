@@ -14,7 +14,7 @@ struct Forecast: Mappable {
 	var title: String!
 	var severity: Int!
 	var date: String!
-	var epochDate: Int!
+	var epochDate: Double!
 	var link: String!
 	var dailyForecasts: [DailyForecast] = []
 	

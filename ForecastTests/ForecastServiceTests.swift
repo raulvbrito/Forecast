@@ -33,7 +33,7 @@ class ForecastServiceTests: XCTestCase {
 		
 		
 		// when
-		serviceUnderTest.fetchForecast(type: "daily", range: "1day", key: "178087") { (error, forecast) in
+		serviceUnderTest.fetchForecast(type: "daily", range: "1day", key: "45881") { (error, forecast) in
 			responseError = error
 			promise.fulfill()
 		}
@@ -52,7 +52,7 @@ class ForecastServiceTests: XCTestCase {
 		
 		
 		// when
-		serviceUnderTest.fetchForecast(type: "hourly", range: "1hour", key: "178087") { (error, forecast) in
+		serviceUnderTest.fetchForecast(type: "hourly", range: "1hour", key: "45881") { (error, forecast) in
 			responseError = error
 			promise.fulfill()
 		}
