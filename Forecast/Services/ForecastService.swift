@@ -19,7 +19,7 @@ class ForecastService: ForecastServiceProtocol {
 	// MARK: - Properties
 	
 	let baseUrl = "https://dataservice.accuweather.com"
-	let apiKey = "WUzcyBjHRK1oZ2I4qTO4uQUFfnC1H2G5"
+	let apiKey = "nFA5uitaXXDakiYMgTQbejSDtT4yIn8P"
 	
 	
     // MARK: - Requests

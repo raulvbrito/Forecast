@@ -17,14 +17,14 @@ class LocationService: LocationServiceProtocol {
 	
 	// MARK: - Properties
 	
-	let baseUrl = "https://dataservice.accuweather.com/locations/v1"
-	let apiKey = "WUzcyBjHRK1oZ2I4qTO4uQUFfnC1H2G5"
+	let baseUrl = "https://dataservice.accuweather.com"
+	let apiKey = "nFA5uitaXXDakiYMgTQbejSDtT4yIn8P"
 	
 	
     // MARK: - Requests
 	
     func fetchLocations(completion: @escaping (_ error: NSError?, _ result: [Location]) -> Void) {
-		let url = "\(baseUrl)/topcities/50?apikey=\(apiKey)"
+		let url = "\(baseUrl)/locations/v1/topcities/50?apikey=\(apiKey)"
 		
 		Alamofire.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: [:]).validate().responseJSON{ response in
 			
