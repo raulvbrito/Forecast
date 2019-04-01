@@ -114,7 +114,7 @@ class SearchViewController: BaseViewController, Storyboarded {
 	}
 	
 	@IBAction func textFieldChanged(_ sender: UITextField) {
-		
+		// TODO: Location Filtering
 	}
 	
 	@IBAction func showForecast(_ sender: Any) {
