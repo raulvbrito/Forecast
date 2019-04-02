@@ -47,6 +47,7 @@ class ForecastViewController: BaseViewController, Storyboarded {
     	forecastViewModel.fetchCurrentConditions = { [weak self] () in
             DispatchQueue.main.async {
 				self?.temperatureLabel.text = "\(Int(self?.forecastViewModel.currentConditions[0].temperature ?? 0))°"
+				self?.descriptionLabel.text = self?.forecastViewModel.currentConditions[0].title
 				
             	UIView.animate(withDuration: 0.6) {
 					self?.temperatureLabel.alpha = 1
