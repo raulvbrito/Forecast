@@ -3,7 +3,7 @@ An `AccuWeather`-based Forecast App, written in Swift 4.
 
 ![SearchViewController](https://i.imgur.com/L64aXvU.png?1)
 ![SearchViewController](https://i.imgur.com/gjg8w0K.png?1)
-![ForecastViewController](https://i.imgur.com/RHUmVcJ.png)
+![ForecastViewController](https://i.imgur.com/RHUmVcJ.png?1)
 
 ## Installation
 
