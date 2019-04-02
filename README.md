@@ -22,3 +22,7 @@ pod install
 - **Weather Forecast:**
   - After choosing a location, the user can select a time range for which the forecast is needed;
   - Once the time range is selected, weather forecast information for the selected location and time range is shown in a new page.
+
+## Demo		
+
+Try this app on [TestFlight](https://testflight.apple.com/join/7v6cDgOX)
