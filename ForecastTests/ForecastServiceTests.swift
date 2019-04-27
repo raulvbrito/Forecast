@@ -45,24 +45,24 @@ class ForecastServiceTests: XCTestCase {
         XCTAssertNil(responseError)
     }
 	
-    func test1HourForecastRange() {
-        // given
-        let promise = expectation(description: "Status code: 200")
-		var responseError: Error?
-		
-		
-		// when
-		serviceUnderTest.fetchForecast(type: "hourly", range: "1hour", key: "45881") { (error, forecast) in
-			responseError = error
-			promise.fulfill()
-		}
-		
-        waitForExpectations(timeout: 5, handler: nil)
-		
-		
-        // then
-        XCTAssertNil(responseError)
-    }
+//    func test1HourForecastRange() {
+//        // given
+//        let promise = expectation(description: "Status code: 200")
+//		var responseError: Error?
+//
+//
+//		// when
+//		serviceUnderTest.fetchForecast(type: "hourly", range: "1hour", key: "45881") { (error, forecast) in
+//			responseError = error
+//			promise.fulfill()
+//		}
+//
+//        waitForExpectations(timeout: 5, handler: nil)
+//
+//
+//        // then
+//        XCTAssertNil(responseError)
+//    }
 	
     func testLocationServicePerformance() {
 		measure {
