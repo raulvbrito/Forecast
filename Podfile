@@ -19,6 +19,11 @@ target 'Forecast' do
   target 'ForecastUITests' do
     inherit! :search_paths
     # Pods for testing
+	
+    pod 'Alamofire' # Networking library
+	pod 'Hero' # View Controller Transitions library
+	pod 'TagListView' # Tag List library
+	pod 'Tailor' # Object Mapper library
   end
 
 end
